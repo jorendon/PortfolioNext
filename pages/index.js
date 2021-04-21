@@ -7,10 +7,10 @@ const Index = () => (
   <Layout>
     {/* Header Card */}
     <header className="row">
-            <div className="col-md-12 animate__animated animate__fadeInDown animate__slower  text-center">
-              <img src="/logo.png" alt="" className="img-fluid" style={{maxWidth: '30%'}} />
+            <div className="col-md-12 animate__animated animate__fadeInDown animate__slower  text-center py-2">
+              <img src="/logo.png" alt="" className="img-fluid" style={{maxWidth: '25%'}} />
             </div>
-            <div className="col-md-12 animate__animated animate__slideInUp animate__slower text-center text-light">
+            <div className="col-md-12 animate__animated animate__slideInUp animate__slower text-center text-white">
               <h1>Full Stack Developer</h1>
             </div>
     </header>
