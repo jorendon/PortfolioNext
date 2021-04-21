@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a644795-5478-4523-a301-a614031cd3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Videos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/profile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618427145201</updated>
       <workItem from="1618427146448" duration="25360000" />
-      <workItem from="1618943398966" duration="22839000" />
+      <workItem from="1618943398966" duration="23142000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminar el post">
       <created>1618520319078</created>
@@ -128,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619021800637</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ajuste en estilo">
+      <created>1619030840667</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619030840667</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

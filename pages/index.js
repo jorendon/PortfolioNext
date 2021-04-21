@@ -18,26 +18,8 @@ const Index = () => (
     {/* Second section */}
 
     <section className="row pl-2" style={{backgroundColor:'white'}}>
-      <div className="col-md-4 py-2 animate__animated animate__fadeInLeft" >
-            <h3>Skills</h3>
-            {skills.map(({ skill, percentage }, i) => (
-              <div className="py-1" key={i}>
-                <h7>{skill}</h7>
-                <div className="progress">
-                  <div
-                    className="progress-bar  bg-info"
-                    role="progressbar"
-                    style={{ width: `${percentage}%` }}
-                    aria-valuenow="50"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            ))}
-      </div>
 
-      <div className="col-md-8 py-2 animate__animated animate__fadeInRight">
+      <div className="col-md-6 py-2 animate__animated animate__fadeInRight">
             <h3>Experience</h3>
 
             <ul>
@@ -55,6 +37,26 @@ const Index = () => (
               ))}
             </ul>
           </div>
+        <div className="col-md-6 py-2 animate__animated animate__fadeInLeft" >
+            <h3>Skills</h3>
+            <div className="col-md-8">
+            {skills.map(({ skill, percentage }, i) => (
+                <div className="py-1" key={i}>
+                    <h7>{skill}</h7>
+                    <div className="progress">
+                        <div
+                            className="progress-bar  bg-info"
+                            role="progressbar"
+                            style={{ width: `${percentage}%` }}
+                            aria-valuenow="50"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        ></div>
+                    </div>
+                </div>
+            ))}
+            </div>
+        </div>
     </section>
     {/* Porfolio */}
     <section>
