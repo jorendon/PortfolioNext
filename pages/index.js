@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Videos from "../components/Videos";
 
 import { skills, experiences, projects,videos } from "../profile";
+import Link from "next/link";
 
 const Index = () => (
   <Layout>
@@ -19,7 +20,7 @@ const Index = () => (
 
     <section className="row pl-2" style={{backgroundColor:'white'}}>
 
-      <div className="col-md-6 py-2 animate__animated animate__fadeInRight">
+      <div className="col-md-6 py-2 animate__animated animate__fadeInLeft animate__slower ">
             <h3>Experience</h3>
 
             <ul>
@@ -37,7 +38,7 @@ const Index = () => (
               ))}
             </ul>
           </div>
-        <div className="col-md-6 py-2 animate__animated animate__fadeInLeft" >
+        <div className="col-md-6 py-2 animate__animated animate__fadeInRight animate__slower " >
             <h3>Skills</h3>
             <div className="col-md-8">
             {skills.map(({ skill, percentage }, i) => (
@@ -64,8 +65,11 @@ const Index = () => (
         <div className="col-md-12">
           <div className="card card-body bg-dark">
             <div className="row">
-              <div className="col-md-12 my-2">
+              <div className="col-md-12 my-2 text-center">
                 <h3 className="text-center text-light">Portfolio</h3>
+                  <Link href="/miniapps">
+                  <button type="button" className="btn btn-outline-info">Mini Apps</button>
+                  </Link>
               </div>
               {projects.map(({ name, url, image }, index) => (
                 <div className="col-md-4 p-2" key={index}>

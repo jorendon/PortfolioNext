@@ -6,7 +6,7 @@ import NProgress from "nprogress";
 import nProgress from "nprogress";
 import classNames from "classnames";
 
-const Layout = ({ children, title, footer = true, dark = false }) => {
+const Layout = ({ children, title, footer = true, dark = false,navBar }) => {
   const router = useRouter();
 
   useEffect(() => {
@@ -28,11 +28,12 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
 
   return (
     <div>
-      {/*<Navbar />*/}
+      {navBar && <Navbar />}
+
       <main>
         {/* Title */}
         {title && (
-          <h1 className={classNames("text-center", { "text-light": dark })}>
+          <h1 className="text-center text-white">
             {title}
           </h1>
         )}
