@@ -46,7 +46,7 @@ export default function Crud(props) {
     }
 
     return (
-        <div className="card border-secondary mb-3">
+        <div className="card border-secondary mb-3" style={{minHeight: 550}}>
             {viewList &&
             <>
                 <div className="card-header">List</div>
