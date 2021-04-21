@@ -27,9 +27,9 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
   }, []);
 
   return (
-    <div className={classNames({ "bg-dark": dark, "bg-light": !dark })}>
-      <Navbar />
-      <main className="container py-4">
+    <div>
+      {/*<Navbar />*/}
+      <main>
         {/* Title */}
         {title && (
           <h1 className={classNames("text-center", { "text-light": dark })}>

@@ -95,3 +95,35 @@ export const projects = [
   },
 ];
 
+export const videos = [
+  {
+    name: "Emprendizaje Hispano Website",
+    url: "https://jonathan.rendon.gitlab.io/emprendizaje/",
+    id: "rokGy0huYEA",
+  },{
+    name: "Emprendizaje Hispano Website",
+    url: "https://jonathan.rendon.gitlab.io/emprendizaje/",
+    id: "rokGy0huYEA",
+  },{
+    name: "Emprendizaje Hispano Website",
+    url: "https://jonathan.rendon.gitlab.io/emprendizaje/",
+    id: "rokGy0huYEA",
+  },{
+    name: "Emprendizaje Hispano Website",
+    url: "https://jonathan.rendon.gitlab.io/emprendizaje/",
+    id: "rokGy0huYEA",
+  },{
+    name: "Emprendizaje Hispano Website",
+    url: "https://jonathan.rendon.gitlab.io/emprendizaje/",
+    id: "rokGy0huYEA",
+  },{
+    name: "Emprendizaje Hispano Website",
+    url: "https://jonathan.rendon.gitlab.io/emprendizaje/",
+    id: "rokGy0huYEA",
+  },{
+    name: "Emprendizaje Hispano Website",
+    url: "https://jonathan.rendon.gitlab.io/emprendizaje/",
+    id: "rokGy0huYEA",
+  }
+];
+
