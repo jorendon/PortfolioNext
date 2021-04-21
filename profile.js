@@ -8,6 +8,14 @@ export const skills = [
     percentage: "90",
   },
   {
+    skill: "Javascript",
+    percentage: "90",
+  },
+  {
+    skill: "PlSql",
+    percentage: "75",
+  },
+  {
     skill: "React",
     percentage: "90",
   },
@@ -16,67 +24,79 @@ export const skills = [
     percentage: 80,
   },
   {
-    skill: "Oracle",
-    percentage: 90,
+    skill: "Git",
+    percentage: 85,
+  },
+  {
+    skill: "Git",
+    percentage: 85,
   }
 ];
 
 export const experiences = [
   {
-    title: "Software developer at Microsoft",
+    title: "Web leader at Grupo Algoritmia",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2000,
-    to: 2005,
+      "Development, coordination and technical administration of projects.",
+    from: 2015,
+    to: 2021,
   },
   {
-    title: "Software developer at Google",
+    title: "Web leader at Planinsa",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2005,
-    to: 2007,
+      "Projects development, coordination and management, applications architecture definition and design, web services and PL/SQL programming.",
+    from: 2011,
+    to: 2015,
   },
   {
-    title: "Software developer at SpaceX",
+    title: "Fullstack Developer at Consis Intenational",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2010,
+      " Front-end development, back-end development, devops.\n",
+    from: 2011,
+    to:2011
+  },
+  {
+    title: "Fullstack Developer at Ibsoft",
+    description:
+      " Front-end development, back-end development, devops.\n",
+    from: 2007,
+    to:2011
   },
 ];
 
 export const projects = [
   {
-    name: "Awesome Website 1",
+    name: "Emprendizaje Hispano Website",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio1.jpeg",
   },
   {
-    name: "Awesome Website 2",
+    name: "Blade Brothers Soft Washing Website",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio2.jpg",
   },
   {
-    name: "Awesome Website 3",
+    name: "Tu Cambio Global Website",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio3.png",
   },
   {
-    name: "Awesome Website 4",
+    name: "Little Harvard Learning Center Website",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio4.png",
   },
   {
-    name: "Awesome Website 5",
+    name: "My Website",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio5.jpeg",
   },
   {
-    name: "Awesome Website 6",
+    name: "Tu Cocina Latina Website",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
     image: "portfolio6.jpeg",

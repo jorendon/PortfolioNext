@@ -31,15 +31,15 @@ const Index = () => (
       <div className="col-md-4 py-2">
         <div className="card bg-light animate__animated animate__fadeInLeft">
           <div className="card-body">
-            <h1>Skills</h1>
+            <h3>Skills</h3>
 
             {/* Skill Progress  */}
             {skills.map(({ skill, percentage }, i) => (
-              <div className="py-3" key={i}>
-                <h5>{skill}</h5>
-                <div className="progress ">
+              <div className="py-1" key={i}>
+                <h7>{skill}</h7>
+                <div className="progress">
                   <div
-                    className="progress-bar progress-bar-striped bg-info"
+                    className="progress-bar progress-bar-striped progress-bar-animated bg-info"
                     role="progressbar"
                     style={{ width: `${percentage}%` }}
                     aria-valuenow="50"
@@ -57,29 +57,26 @@ const Index = () => (
         {/* Experience */}
         <div className="card bg-light animate__animated animate__fadeInRight">
           <div className="card-body">
-            <h1>Experience</h1>
+            <h3>Experience</h3>
 
             <ul>
               {/* List Item Experience */}
-              {experiences.map(({ title, from, to }, index) => (
+              {experiences.map(({ title, from, to,description }, index) => (
                 <li key={index}>
-                  <h3>{title}</h3>
+                  <h4>{title}</h4>
                   <h5>
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint excepturi ea explicabo. Illum suscipit illo, porro
-                    quisquam voluptatem officiis fugiat vel animi aliquam
-                    inventore rem. Quo laudantium temporibus cupiditate. Aut?
+                    {description}
                   </p>
                 </li>
               ))}
             </ul>
-            <Link href="/hireme">
-              <a className="btn btn-light">Know More</a>
-            </Link>
           </div>
+          <Link href="/experience">
+            <a className="btn btn-light">More Experience</a>
+          </Link>
         </div>
       </div>
     </section>
@@ -90,7 +87,7 @@ const Index = () => (
           <div className="card card-body bg-dark">
             <div className="row">
               <div className="col-md-12 my-2">
-                <h1 className="text-center text-light">Portfolio</h1>
+                <h3 className="text-center text-light">Portfolio</h3>
               </div>
               {projects.map(({ name, description, image }, index) => (
                 <div className="col-md-4 p-2" key={index}>

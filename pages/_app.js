@@ -1,5 +1,5 @@
 // importing bootswatch
-import 'bootswatch/dist/solar/bootstrap.min.css'
+import 'bootswatch/dist/flatly/bootstrap.min.css'
 import 'animate.css/animate.min.css'
 import '../global.css'
 
