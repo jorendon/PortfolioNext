@@ -89,7 +89,7 @@ const Index = () => (
               <div className="col-md-12 my-2">
                 <h3 className="text-center text-light">Portfolio</h3>
               </div>
-              {projects.map(({ name, description, image }, index) => (
+              {projects.map(({ name, url, image }, index) => (
                 <div className="col-md-4 p-2" key={index}>
                   <div className="card h-100">
                     <div className="overflow">
@@ -101,20 +101,11 @@ const Index = () => (
                     </div>
                     <div className="card-body">
                       <h3>{name}</h3>
-                      <p>{description}</p>
-                      <a href="#!">Know More</a>
+                      <a href={`${url}`} target="_blank">Know More</a>
                     </div>
                   </div>
                 </div>
               ))}
-
-              <div className="col-md-12 mt-4">
-                <div className="text-center">
-                  <Link href="/portfolio">
-                    <a className="btn btn-outline-light">More Projects</a>
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
         </div>

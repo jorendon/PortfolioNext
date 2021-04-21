@@ -67,38 +67,34 @@ export const experiences = [
 export const projects = [
   {
     name: "Emprendizaje Hispano Website",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+    url: "https://jonathan.rendon.gitlab.io/emprendizaje/",
     image: "portfolio1.jpeg",
   },
   {
     name: "Blade Brothers Soft Washing Website",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+    url: "https://jonathan.rendon.gitlab.io/blade/",
     image: "portfolio2.jpg",
   },
   {
     name: "Tu Cambio Global Website",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+    url: "https://jonathan.rendon.gitlab.io/tucambioglobal",
     image: "portfolio3.png",
   },
   {
     name: "Little Harvard Learning Center Website",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+    url: "https://jonathan.rendon.gitlab.io/littleharvard",
     image: "portfolio4.png",
   },
   {
     name: "My Website",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+    url:
+      "https://jonathan.rendon.gitlab.io/Jrendon",
     image: "portfolio5.jpeg",
   },
   {
     name: "Tu Cocina Latina Website",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+    url:
+      "https://jonathan.rendon.gitlab.io/tucocinalatina",
     image: "portfolio6.jpeg",
   },
 ];
