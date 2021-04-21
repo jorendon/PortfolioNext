@@ -12,7 +12,7 @@ export const skills = [
     percentage: "90",
   },
   {
-    skill: "PlSql",
+    skill: "Plsql",
     percentage: "75",
   },
   {

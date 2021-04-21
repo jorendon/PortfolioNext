@@ -11,14 +11,10 @@ const Index = () => (
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
             <div className="col-md-4">
-              <img src="/yo.jpeg" alt="" className="img-fluid" />
+              <img src="/logo.png" alt="" className="img-fluid" style={{maxWidth: '60%'}} />
             </div>
-            <div className="col-md-8">
-              <h1>Jonathan Rendón</h1>
-              <h3>Full Stack Developer</h3>
-              <Link href="/hireme">
-                <a className="btn btn-outline-light">Hire Me</a>
-              </Link>
+            <div className="col-md-8 col align-self-center">
+              <h1>Full Stack Developer</h1>
             </div>
           </div>
         </div>
@@ -28,8 +24,8 @@ const Index = () => (
     {/* Second section */}
 
     <section className="row">
-      <div className="col-md-4 py-2">
-        <div className="card bg-light animate__animated animate__fadeInLeft">
+      <div className="col-md-4 py-2" >
+        <div className="card bg-light animate__animated animate__fadeInLeft" style={{minHeight: 550}} >
           <div className="card-body">
             <h3>Skills</h3>
 
@@ -55,7 +51,7 @@ const Index = () => (
 
       <div className="col-md-8 py-2">
         {/* Experience */}
-        <div className="card bg-light animate__animated animate__fadeInRight">
+        <div className="card bg-light animate__animated animate__fadeInRight" style={{minHeight: 550}}>
           <div className="card-body">
             <h3>Experience</h3>
 
@@ -74,9 +70,6 @@ const Index = () => (
               ))}
             </ul>
           </div>
-          <Link href="/experience">
-            <a className="btn btn-light">More Experience</a>
-          </Link>
         </div>
       </div>
     </section>
