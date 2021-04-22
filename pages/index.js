@@ -52,7 +52,7 @@ const Index = () => (
                             aria-valuenow="50"
                             aria-valuemin="0"
                             aria-valuemax="100"
-                        ></div>
+                        />
                     </div>
                 </div>
             ))}
