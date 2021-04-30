@@ -84,7 +84,7 @@ export const projects = [
   {
     name: "My Website",
     url:
-      "https://jonathan.rendon.gitlab.io/Jrendon",
+      "http://rendon.com.ve",
     image: "portfolio5.jpeg",
   },
   {
