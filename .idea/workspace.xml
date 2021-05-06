@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a644795-5478-4523-a301-a614031cd3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/bootstrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/git.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/jquery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/maria.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mongo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mysql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/node.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/oracle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sql.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +67,7 @@
       <workItem from="1618427146448" duration="25360000" />
       <workItem from="1618943398966" duration="34842000" />
       <workItem from="1619808780100" duration="1310000" />
-      <workItem from="1620256995661" duration="3082000" />
+      <workItem from="1620256995661" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminar el post">
       <created>1618520319078</created>
@@ -190,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619808941373</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Actualizar skills">
+      <created>1620261175625</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620261175626</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +204,7 @@
     <MESSAGE value="Ajuste en portfolio general" />
     <MESSAGE value="Ajustes en el crud" />
     <MESSAGE value="Actualice la url de Jrendon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualice la url de Jrendon" />
+    <MESSAGE value="Actualizar skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizar skills" />
   </component>
 </project>
