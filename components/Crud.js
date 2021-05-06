@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import { faUserEdit,faUserPlus,faUserTimes } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ReactTooltip from "react-tooltip";
 import {v4 as uuidv4} from 'uuid';
 
 export default function Crud(props) {
@@ -85,7 +88,12 @@ export default function Crud(props) {
             <>
                 <div className="card-header">Persons</div>
                 <div className="card-body">
-                    <button type="button" className="btn btn-success btn-sm mb-1" onClick={addPerson}>Add Person</button>
+                    <button type="button" className="btn btn-success btn-sm mb-1" onClick={addPerson} data-tip data-for="add">
+                        <FontAwesomeIcon icon={faUserPlus} />
+                        <ReactTooltip id="add" place="top" effect="solid">
+                            Add Person
+                        </ReactTooltip>
+                    </button>
                     <table className="table table-hover">
                         <thead>
                         <tr>
@@ -104,10 +112,20 @@ export default function Crud(props) {
                                     <td>{person.age}</td>
                                     <td className="text-center">
                                         <button type="button" onClick={() => deletePerson(person)}
-                                                className="btn btn-danger btn-sm mr-md-1">Delete
+                                                className="btn btn-danger btn-sm mr-md-1" data-tip data-for="delete">
+                                            <FontAwesomeIcon icon={faUserTimes} />
+                                            <ReactTooltip id="delete" place="bottom" effect="solid">
+                                                Delete Person
+                                            </ReactTooltip>
+
+
                                         </button>
                                         <button type="button" onClick={() => editPerson(person)}
-                                                className="btn btn-warning btn-sm">Edit
+                                                className="btn btn-warning btn-sm" data-tip data-for="edit">
+                                            <FontAwesomeIcon icon={faUserEdit} />
+                                            <ReactTooltip id="edit" place="bottom" effect="solid">
+                                                Edit Person
+                                            </ReactTooltip>
                                         </button>
                                     </td>
 

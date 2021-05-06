@@ -6,7 +6,7 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta name="description" content="Jonathan Rendón Website"/>
-                    <title>Jonathan Rendón Portfolio</title>
+                    <title>Jonathan Rendón Website</title>
                     {/* Nprogress css */}
                     <link
                         rel="stylesheet"
