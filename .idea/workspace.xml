@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a644795-5478-4523-a301-a614031cd3de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Crud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/miniapps.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/miniapps.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/locales/es" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -54,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonat\WebstormProjects\Portfolio\locales\es" />
       <recent name="C:\Users\jonat\WebstormProjects\Portfolio\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -74,7 +76,7 @@
       <workItem from="1619808780100" duration="1310000" />
       <workItem from="1620256995661" duration="4074000" />
       <workItem from="1620342031956" duration="2000" />
-      <workItem from="1620342164606" duration="1959000" />
+      <workItem from="1620342164606" duration="10178000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminar el post">
       <created>1618520319078</created>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620261374578</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Actualizar crud">
+      <created>1620344196821</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620344196821</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +228,7 @@
     <MESSAGE value="Ajustes en el crud" />
     <MESSAGE value="Actualice la url de Jrendon" />
     <MESSAGE value="Actualizar skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizar skills" />
+    <MESSAGE value="Actualizar crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizar crud" />
   </component>
 </project>
