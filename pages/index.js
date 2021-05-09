@@ -1,13 +1,22 @@
 import Layout from "../components/Layout";
-import Videos from "../components/Videos";
-import MiniApps from "./miniapps";
+import tawkTo from "tawkto-react";
 
 
 import {skills, experiences, projects, videos} from "../profile";
 import Link from "next/link";
-
+import {useEffect} from "react";
 
 const Index = () => {
+    const tawkToPropertyId = '5a7de2d0d7591465c707884b'
+
+// Direct Chat Link
+// https://tawk.to/chat/tawkToPropertyId/tawkToKey
+
+    const tawkToKey = 'default'
+
+    useEffect(() => {
+        tawkTo(tawkToPropertyId, tawkToKey)
+    }, [])
 
     return (
             <Layout>
