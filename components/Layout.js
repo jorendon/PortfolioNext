@@ -4,7 +4,8 @@ import Navbar from "./Navbar";
 import PropTypes from "prop-types";
 import NProgress from "nprogress";
 import nProgress from "nprogress";
-import classNames from "classnames";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faInstagram,faFacebook,faWhatsapp,faTelegram} from "@fortawesome/free-brands-svg-icons";
 
 const Layout = ({ children, title, footer = true, dark = false,navBar }) => {
   const router = useRouter();
@@ -44,9 +45,14 @@ const Layout = ({ children, title, footer = true, dark = false,navBar }) => {
       {footer && (
         <footer className="bg-dark text-white text-center">
           <div className="container p-4">
-            <h3>&copy; Jonathan Rendón</h3>
+            <h4>&copy; Jonathan Rendón</h4>
+            <a href="https://www.instagram.com/jrendonve/" target="_blank"> <FontAwesomeIcon icon={faInstagram} className="mr-md-1 text-white" /></a>
+            <a href="https://www.facebook.com/Jrendonve" target="_blank"><FontAwesomeIcon icon={faFacebook} className="mr-md-1 text-white" /></a>
+            <a href="https://wa.me/584125875461" target="_blank"><FontAwesomeIcon icon={faWhatsapp} className="mr-md-1 text-white"/></a>
+            <a href="https://t.me/Jorendon" target="_blank"><FontAwesomeIcon icon={faTelegram} className="mr-md-1 text-white"/></a>
             <p>2007 - {new Date().getFullYear()}</p>
             <p>All rights Reserved.</p>
+
           </div>
         </footer>
       )}
