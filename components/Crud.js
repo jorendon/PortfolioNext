@@ -86,7 +86,7 @@ export default function Crud(props) {
             {viewAlert && <Alert message={message} handleClose={alertCLose}/>}
             {viewList &&
             <>
-                <div className="card-header">Persons</div>
+                <div className="card-header text-white">Persons</div>
                 <div className="card-body">
                     <button type="button" className="btn btn-success btn-sm mb-1" onClick={addPerson} data-tip data-for="add">
                         <FontAwesomeIcon icon={faUserPlus} />

@@ -35,7 +35,7 @@ export default function Table(props) {
     return (
         <div className="card border-secondary mb-2 animate__animated animate__fadeInUp animate__slower"
              style={{minHeight: 550}}>
-            <div className="card-header">Covid 19 cases by countries</div>
+            <div className="card-header text-white">Covid 19 cases by countries</div>
             <div className="card-body text-center">
                 <BootstrapTable
                     data={data}

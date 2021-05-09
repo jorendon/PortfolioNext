@@ -21,7 +21,7 @@ export default function GalleryComponent(props) {
 
     return (
             <div className="card border-secondary mb-2 animate__animated animate__fadeInRight animate__slower" style={{minHeight: 550}}>
-                    <div className="card-header">Star Wars React Gallery</div>
+                    <div className="card-header text-white">Star Wars React Gallery</div>
                     <div className="card-body">
                         <Gallery photos={photos} onClick={openLightbox} />
                         <ModalGateway>
