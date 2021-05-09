@@ -70,7 +70,7 @@ export default function Chart(props) {
     return (
         <div className="card border-secondary mb-2 animate__animated animate__fadeInRight animate__slower"
              style={{minHeight: 550}}>
-            <div className="card-header">Covid 19 Cases</div>
+            <div className="card-header">Covid 19 cases in the world</div>
             <div className="card-body text-center" style={{backgroundColor: 'white'}}>
                 <div style={{ width: '100%', height: 300 }}>
                     <h3>Date:{day}</h3>
