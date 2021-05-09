@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Crud from "../components/Crud";
 import GalleryComponent from "../components/Gallery";
 import Chart from "../components/Chart";
+import Table from "../components/Table";
 
 
 const MiniApps = () => {
@@ -13,6 +14,9 @@ const MiniApps = () => {
                 </div>
                 <div className="col-lg-6">
                     <Chart/>
+                </div>
+                <div className="col-lg-12">
+                    <Table/>
                 </div>
                 <div className="col-lg-12">
                     <GalleryComponent/>

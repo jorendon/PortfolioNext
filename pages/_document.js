@@ -12,6 +12,8 @@ class MyDocument extends Document {
                         rel="stylesheet"
                         href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css"
                     />
+                    <link rel="stylesheet" href="https://npmcdn.com/react-bootstrap-table/dist/react-bootstrap-table-all.min.css">
+                    </link>
                     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
                     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
                     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
