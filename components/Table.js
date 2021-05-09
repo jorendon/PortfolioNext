@@ -64,7 +64,7 @@ export default function Table(props) {
     return (
         <div className="card border-secondary mb-2 animate__animated animate__fadeInUp animate__slower"
              style={{minHeight: 550}}>
-            <div className="card-header text-white">Covid 19 cases by countries</div>
+            <div className="card-header text-white">Covid 19 cases by countries (Data by https://covid19api.com/)</div>
             <div className="card-body">
                 <h3 className="text-white">Date:{day}</h3>
                 <BootstrapTable
