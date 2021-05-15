@@ -5,6 +5,8 @@ import tawkTo from "tawkto-react";
 import {skills, experiences, projects, videos} from "../profile";
 import Link from "next/link";
 import {useEffect} from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faInstagram, faReact} from "@fortawesome/free-brands-svg-icons";
 
 const Index = () => {
     const tawkToPropertyId = '5a7de2d0d7591465c707884b'
@@ -56,22 +58,22 @@ const Index = () => {
                     <div className="col-md-6 py-2 animate__animated animate__fadeInRight animate__slower ">
                         <h3>Skills</h3>
                         <div className="col-md-8">
-                            <img src="/java.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/php.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/javascript.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/node.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/react.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/sql.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/pl.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/html.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/css.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/jquery.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/bootstrap.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/oracle.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/mongo.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/mysql.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/maria.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
-                            <img src="/git.png" alt="" className="img-fluid" style={{maxWidth: '15%'}}/>
+                            <img src="/java.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/php.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/javascript.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/node.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/react.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/sql.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/pl.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/html.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/css.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/jquery.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/bootstrap.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/oracle.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/mongo.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/mysql.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/maria.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
+                            <img src="/git.png" alt="" className="img-fluid" style={{maxWidth: '20%'}}/>
                         </div>
                     </div>
                 </section>
@@ -83,8 +85,10 @@ const Index = () => {
                                 <div className="row">
                                     <div className="col-md-12 my-2 text-center">
                                         <h3 className="text-center text-light">WebSites</h3>
-                                        <Link href="/miniapps">
-                                            <button type="button" className="btn btn-outline-info">Mini Apps</button>
+                                        <Link href="/components">
+                                            <button type="button" className="btn btn-outline-info">
+                                                <FontAwesomeIcon icon={faReact}/>  React Components <FontAwesomeIcon icon={faReact}/>
+                                            </button>
                                         </Link>
                                     </div>
                                     {projects.map(({name, url, image}, index) => (
