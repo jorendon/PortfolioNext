@@ -112,7 +112,7 @@ export default function Crud(props) {
                                     <td>{person.age}</td>
                                     <td className="text-center">
                                         <button type="button" onClick={() => deletePerson(person)}
-                                                className="btn btn-danger btn-sm mr-md-1" data-tip data-for="delete">
+                                                className="btn btn-danger btn-sm mr-md-1 mb-2" data-tip data-for="delete">
                                             <FontAwesomeIcon icon={faUserTimes} />
                                             <ReactTooltip id="delete" place="bottom" effect="solid">
                                                 Delete Person

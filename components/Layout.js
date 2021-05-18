@@ -46,10 +46,10 @@ const Layout = ({ children, title, footer = true, dark = false,navBar }) => {
         <footer className="bg-dark text-white text-center">
           <div className="container p-4">
             <h4>&copy; Jonathan Rendón</h4>
-            <a href="https://www.instagram.com/jrendonve/" target="_blank"> <FontAwesomeIcon icon={faInstagram} className="mr-md-2 text-white" /></a>
-            <a href="https://www.facebook.com/Jrendonve" target="_blank"><FontAwesomeIcon icon={faFacebook} className="mr-md-2 text-white" /></a>
-            <a href="https://wa.me/584125875461" target="_blank"><FontAwesomeIcon icon={faWhatsapp} className="mr-md-2 text-white"/></a>
-            <a href="https://t.me/Jorendon" target="_blank"><FontAwesomeIcon icon={faTelegram} className="mr-md-2 text-white"/></a>
+            <a href="https://www.instagram.com/jrendonve/" target="_blank"> <FontAwesomeIcon icon={faInstagram} className="mr-2 text-white" /></a>
+            <a href="https://www.facebook.com/Jrendonve" target="_blank"><FontAwesomeIcon icon={faFacebook} className="mr-2  text-white" /></a>
+            <a href="https://wa.me/584125875461" target="_blank"><FontAwesomeIcon icon={faWhatsapp} className="mr-2  text-white"/></a>
+            <a href="https://t.me/Jorendon" target="_blank"><FontAwesomeIcon icon={faTelegram} className="mr-2  text-white"/></a>
             <p>2007 - {new Date().getFullYear()}</p>
             <p>All rights Reserved.</p>
 
