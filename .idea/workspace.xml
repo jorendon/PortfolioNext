@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a644795-5478-4523-a301-a614031cd3de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Camera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Image.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Crud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,7 @@
       <workItem from="1620342164606" duration="22650000" />
       <workItem from="1620781779924" duration="592000" />
       <workItem from="1620937195015" duration="9000" />
-      <workItem from="1621043790359" duration="7935000" />
+      <workItem from="1621043790359" duration="14792000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminar el post">
       <created>1618520319078</created>
@@ -288,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621048294204</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Ajustes en algunos puntos">
+      <created>1621300126688</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1621300126688</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

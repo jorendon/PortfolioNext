@@ -121,7 +121,7 @@ export default function Crud(props) {
 
                                         </button>
                                         <button type="button" onClick={() => editPerson(person)}
-                                                className="btn btn-warning btn-sm" data-tip data-for="edit">
+                                                className="btn btn-warning btn-sm mb-2" data-tip data-for="edit">
                                             <FontAwesomeIcon icon={faUserEdit} />
                                             <ReactTooltip id="edit" place="bottom" effect="solid">
                                                 Edit Person
