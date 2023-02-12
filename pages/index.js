@@ -72,16 +72,9 @@ const Index = () => {
                         </li>
                     </ul>
 
-                    <a href="https://drive.google.com/file/d/12JbkzfgzUscPwqmzcpFWFBoDjQsngpXq/view" target="_blank" className="mr-md-2">
+                    <a href="https://drive.google.com/file/d/1oPG7KEIJ2LIoXqK_GOJWgOQd_vJuAmRV/view?usp=share_link" target="_blank" className="mr-md-2">
                         <button type="button" className="btn btn-outline-info">
-                            <FontAwesomeIcon icon={faFile}/> CV English
-                        </button>
-                    </a>
-
-                    <a href="https://drive.google.com/file/d/1sI_sBmX_QH5QdkLo1BOaIKJUG3scB58h/view"
-                       target="_blank" className="mr-md-2">
-                        <button type="button" className="btn btn-outline-info">
-                            <FontAwesomeIcon icon={faFile}/> CV Español
+                            <FontAwesomeIcon icon={faFile}/> Resume
                         </button>
                     </a>
 
