@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import tawkTo from "tawkto-react";
+import { GoogleOAuthProvider,GoogleLogin  } from '@react-oauth/google';
 
 
 import {skills, experiences, projects, videos} from "../profile";
@@ -22,6 +23,15 @@ const Index = () => {
     }, [])
 
     return (
+        <GoogleOAuthProvider clientId="423385529275-7bs33dti0mms2384u9f64bobekko43aa.apps.googleusercontent.com">
+            <GoogleLogin
+                onSuccess={credentialResponse => {
+                    console.log(credentialResponse);
+                }}
+                onError={() => {
+                    console.log('Login Failed');
+                }}
+            />
         <Layout>
             {/* Header Card */}
             <header className="row">
@@ -150,7 +160,8 @@ const Index = () => {
                     </div>
                 </div>
             </section>
-        </Layout>)
+        </Layout>
+        </GoogleOAuthProvider>)
 };
 
 export default Index;
